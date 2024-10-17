@@ -19,7 +19,6 @@ MenuChoice = []
 while True:
     MenuChoice = input("What would you like to select: ")
     if MenuChoice == "Play" or MenuChoice == "play":
-        print("This area is a possible work in progress.")
         break
     elif MenuChoice == "Story Mode" or MenuChoice == "story mode" or MenuChoice == "Story mode":
         print("This area is a work in progress.")
@@ -32,3 +31,5 @@ while True:
         break
     else:
         print("That option is not available. Try again.")
+if MenuChoice == "Play" or MenuChoice == "play":
+    Update = input("Press enter to continue: ")
